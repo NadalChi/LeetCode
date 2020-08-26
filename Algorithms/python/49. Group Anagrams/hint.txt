@@ -1,0 +1,3 @@
+#49. Group Anagrams
+法一：用tuple(sorted(i))當作dict的key，ｉ當value，最後輸出dict.values
+法二：每個字母當成一個質數，dict的key為這些字母的乘積，必為unique，ｉ當value

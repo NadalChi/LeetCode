@@ -1,0 +1,2 @@
+#118Pascal's Triangle
+index處理

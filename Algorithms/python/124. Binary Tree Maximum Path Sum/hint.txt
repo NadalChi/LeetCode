@@ -1,0 +1,4 @@
+#124. Binary Tree Maximum Path Sum
+分左右邊，往下traversal，每個點計算root.val + max(0, pathSum(root.left)) + max(0, pathSum(root.right))
+同時不停更新最佳解
+(可不用hashmap紀錄每個點，因為只會traversal一次)

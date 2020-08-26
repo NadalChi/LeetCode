@@ -1,0 +1,2 @@
+#4. Median of Two Sorted Arrays
+不斷比較兩array內最小值，放到一新list內，直到長度等於兩array和的一半時，此數即為median

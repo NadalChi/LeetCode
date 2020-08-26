@@ -1,0 +1,2 @@
+#77Combination
+運用combinations(range(k),n)找出在range(k)中長度為n的所有combinations

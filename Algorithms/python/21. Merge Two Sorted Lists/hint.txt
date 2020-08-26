@@ -1,0 +1,14 @@
+#21. Merge Two Sorted Lists
+dummy = curr = ListNode(0)#用dummy紀錄初始值
+:#比較兩linked Lists，較小的就接續在curr後，直到其中一個到尾巴
+curr.next = l1 or l2
+return dummy.next
+iteratively/recursively
+if not l1 or not l2: #recursively
+            return l1 or l2
+        if l1.val < l2.val:
+            l1.next = self.mergeTwoLists(l1.next,l2)
+            return l1
+        else:
+            l2.next = self.mergeTwoLists(l1,l2.next)
+            return l2

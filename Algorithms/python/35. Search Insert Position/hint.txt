@@ -1,0 +1,2 @@
+#35. Search Insert Position
+不停二分法binary search，左右夾擠照到index

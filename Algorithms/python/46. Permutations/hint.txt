@@ -1,0 +1,2 @@
+#46. Permutations
+backtracking，一層一層加，從第一個數字開始，慢慢插入每個數字間隔

@@ -1,0 +1,3 @@
+#40Combination Sum II
+利用backtracking，不停累加直到等於target，若超過則跳出9
+(數字不可重複)

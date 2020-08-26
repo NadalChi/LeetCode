@@ -1,0 +1,2 @@
+#73. Set Matrix Zeroes
+逐一搜索，若為0，則將那個row的第一個index及那個column的第一個index設為0，然後再遍歷一次，將那個row第一個index及那個column第一個index設為0的地方，設為0，即為結果

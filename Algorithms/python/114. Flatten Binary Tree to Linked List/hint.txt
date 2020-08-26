@@ -1,0 +1,3 @@
+#114. Flatten Binary Tree to Linked List
+類似#430
+用stack存right再存left，然後一一pop出來接在root下面

@@ -1,0 +1,6 @@
+#101Symmetric Tree
+判斷root.left == root.right，left.left == right.right
+if left.val == right.val:
+            a = self.compare(left.left, right.right)
+            b = self.compare(left.right, right.left)
+            return a and b

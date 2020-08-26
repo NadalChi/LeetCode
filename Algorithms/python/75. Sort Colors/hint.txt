@@ -1,0 +1,5 @@
+#75. Sort Colors
+三個指標，red, white, blue = 0, 0, len(nums) - 1
+遇到紅色，與紅色指標互換red, white +=1
+遇到白色，white += 1
+遇到藍色，與藍色指標互換blue -= 1

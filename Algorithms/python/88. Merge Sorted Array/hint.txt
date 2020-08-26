@@ -1,0 +1,2 @@
+#88Merge Sorted Array
+比較兩個list最後面的數，直接放到nums1的第m+n-k個位置

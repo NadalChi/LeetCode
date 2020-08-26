@@ -1,0 +1,2 @@
+#19. Remove Nth Node From End of List
+fast and slow，慢的先走n布，兩個再一起走，直到fast到尾巴時，表示slow走到距離尾巴n步的地方，此時刪掉一個LinkedList -> slow.next = slow.next.next

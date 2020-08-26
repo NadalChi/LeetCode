@@ -1,0 +1,2 @@
+#121Best Time to Buy and Sell Stock
+不停紀錄最高點，並尋找是否有更小的點，與區域最大值產生最佳解

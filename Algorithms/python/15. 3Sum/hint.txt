@@ -1,0 +1,2 @@
+#15. 3Sum
+先用hashmap記錄每個數字出現次數，sort後，一個一個找，把此index後面的list想成2sum的問題，看兩者和的相反數，是否有在map內，同時要注意一些corner case
