@@ -1,0 +1,2 @@
+#3Longest Substring Without Repeating Characters
+用一list紀錄看到的字元，若新的字元in list，找出list.index()，新的list為list[index+1:]，不斷紀錄最佳解
