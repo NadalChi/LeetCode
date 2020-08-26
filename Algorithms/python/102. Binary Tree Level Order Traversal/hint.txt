@@ -1,0 +1,7 @@
+#102Binary Tree Level Order Traversal
+同#102#107#429
+一層一層建立即可
+用recusive，分成左右兩棵樹，不停向下搜尋最深深度
+ans.append([node.val for node in level])
+LRpair = [(node.left, node.right) for node in level]
+level = [leaf for LR in LRpair for leaf in LR if leaf]

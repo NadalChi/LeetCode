@@ -1,0 +1,3 @@
+#28Implement strStr()
+找第二個string是否在第一個string內，若是則回傳起始index
+1.兩層for去找 2.return len(haystack.split(needle)[0]) #用needle當作被split的對象 3.return haystack.index(needle)#回傳needle的index

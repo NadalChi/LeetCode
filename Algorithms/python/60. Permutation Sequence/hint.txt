@@ -1,0 +1,2 @@
+#60. Permutation Sequence
+用餘數的方法，看現在應該填入第幾個數，用過後刪掉

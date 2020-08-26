@@ -1,0 +1,3 @@
+#26Remove Duplicates from Sorted Array
+two pointers
+只要輸出不一樣的那幾個，那就把它們移到list前面，輸出前k個

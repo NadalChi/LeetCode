@@ -1,0 +1,2 @@
+#98Validate Binary Search Tree
+判斷是否為BST，作法：算出Inorder Traversal，判斷是否由小到大

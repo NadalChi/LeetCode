@@ -1,0 +1,2 @@
+#82Remove Duplicates from Sorted List II
+在一linked list中，刪除連續出現的，開頭連續比較難處理

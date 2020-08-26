@@ -1,0 +1,2 @@
+#5Longest Palindromic Substring
+判斷是否有回文的字串，每次增加一個字，只需判斷當前最長（max_len)回推max_len+2即可，因為若有更長的前面已經判斷過了，不需要整條判斷

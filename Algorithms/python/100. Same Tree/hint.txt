@@ -1,0 +1,2 @@
+#100. Same Tree
+不停遞迴，從root先比較，一樣的話再往preorder的順序call自己(比較一不一樣的function)

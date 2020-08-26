@@ -1,0 +1,3 @@
+#39Combination Sum
+利用backtracking，不停累加直到等於target，若超過則跳出
+(數字可重複)

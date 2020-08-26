@@ -1,0 +1,8 @@
+#125Valid Palindrome
+
+s = s.lower() #直接刪掉所有非字串的單位
+s = [c for c in s if c.isalnum()]
+return s == s[::-1]
+
+string.lower()轉小寫
+string.isalnum() 回傳bool是否所有字符全為數字或字母

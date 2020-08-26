@@ -1,0 +1,2 @@
+#22. Generate Parentheses
+recursive 一層一層坐，紀錄現在有幾個‘(‘可再接幾個’)’

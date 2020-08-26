@@ -1,0 +1,3 @@
+#7Reverse Integer
+判斷正負號、轉成字串後反轉，判斷輸出結果是否在32-bit signed integer range內
+return sign * int(reverse) * (int(reverse) < 2**31)

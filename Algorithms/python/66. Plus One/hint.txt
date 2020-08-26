@@ -1,0 +1,2 @@
+#66Plus One
+digits.insert(0,1)

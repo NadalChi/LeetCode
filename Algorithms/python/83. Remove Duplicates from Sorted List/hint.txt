@@ -1,0 +1,2 @@
+#83Remove Duplicates from Sorted List
+若有重複，則改變指標位置
